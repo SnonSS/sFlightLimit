@@ -1,0 +1,8 @@
+name: sFlightLimit
+version: 1.9
+author: Snon_S
+main: pl.snon_ss.sFlightLimit.Main
+api-version: 1.13
+commands:
+  sflightlimitreload:
+    aliases: [sflreload]

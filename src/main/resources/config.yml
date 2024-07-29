@@ -1,0 +1,101 @@
+#
+#        ▀██▀▀▀▀█ ▀██   ██          ▀██        ▄   ▀██▀       ██              ██    ▄
+#  ▄▄▄▄   ██  ▄    ██  ▄▄▄    ▄▄▄ ▄  ██ ▄▄   ▄██▄   ██       ▄▄▄  ▄▄ ▄▄ ▄▄   ▄▄▄  ▄██▄
+# ██▄ ▀   ██▀▀█    ██   ██   ██ ██   ██▀ ██   ██    ██        ██   ██ ██ ██   ██   ██
+# ▄ ▀█▄▄  ██       ██   ██    █▀▀    ██  ██   ██    ██        ██   ██ ██ ██   ██   ██
+# █▀▄▄█▀ ▄██▄     ▄██▄ ▄██▄  ▀████▄ ▄██▄ ██▄  ▀█▄▀ ▄██▄▄▄▄▄█ ▄██▄ ▄██ ██ ██▄ ▄██▄  ▀█▄▀
+#                           ▄█▄▄▄▄▀
+#
+#
+# Who cares how the text is made, then here is the site: https://texteditor.com/multiline-text-art/
+# Кому интересно как сделан текст, то вот сайт: https://texteditor.com/multiline-text-art/
+#
+
+No-Permission-Reload:
+- '§b[sFlightLimit] §8- §cYou don''t have enough rights!'
+Files-Reloaded:
+- '§b[sFlightLimit] §8- §aRebooted successfully!'
+
+# List of worlds. You can add your own worlds or remove these worlds!
+# Список миров. Можно добавить свои миры или удалить эти миры!
+Worlds:
+  world:
+    Enabled: true
+    # Setting the maximum height. for fly | Настройка максимальной высоты. для флая
+    Max-Height-Fly-Limit-Enabled: true
+    Max-Height-Fly-Limit: 300
+    Max-Height-Fly-Limit-Permission-Enabled: false
+    Max-Height-Fly-Limit-Permission: sflightlimit.bypass.fly
+    Max-Height-Fly-Limit-Message-Admin-Enabled: true
+    Max-Height-Fly-Limit-Message-Admin-Permission: sflightlimit.admin-message-fly-max
+    Max-Height-Fly-Limit-Message-Admin-Limit: 10
+    Max-Height-Fly-Limit-Message-Admin:
+    - '§b[sFlightLimit] §8- §ePlayer &6%player% &ewanted to fly higher than &6%limit% &eblocks in the world &6%world% &ebut couldn''t.'
+    Max-Height-Fly-Limit-Message-Enabled: true
+    Max-Height-Fly-Limit-Message-Limit: 10
+    Max-Height-Fly-Limit-Message:
+    - '§b[sFlightLimit] §8- §cYou cannot fly higher than &6%limit% &cblocks in the world &6%world%'
+    Max-Height-Fly-Limit-Reset-Enabled: true
+    Max-Height-Fly-Limit-Reset-Sound-Enabled: true
+    Max-Height-Fly-Limit-Reset-Sound: BLOCK_ANVIL_DESTROY
+    Max-Height-Fly-Limit-Reset-Sound-Volume: 1.0
+    Max-Height-Fly-Limit-Reset-Sound-Pitch: 2.0
+    # Setting the minimum height. for elytra | Настройка минимальной высоты. для элитр
+    Max-Height-Fly-Elytra-Limit-Enabled: true
+    Max-Height-Fly-Elytra-Limit: 300
+    Max-Height-Fly-Elytra-Limit-Permission-Enabled: false
+    Max-Height-Fly-Elytra-Limit-Permission: sflightlimit.bypass.fly-elytra
+    Max-Height-Fly-Elytra-Limit-Message-Admin-Enabled: true
+    Max-Height-Fly-Elytra-Limit-Message-Admin-Permission: sflightlimit.admin-message-fly-elytra-max
+    Max-Height-Fly-Elytra-Limit-Message-Admin-Limit: 10
+    Max-Height-Fly-Elytra-Limit-Message-Admin:
+    - '§b[sFlightLimit] §8- §ePlayer &6%player% &ewanted to fly higher than &6%limit% &eblocks in the world &6%world% &ebut couldn''t.'
+    Max-Height-Fly-Elytra-Limit-Message-Enabled: true
+    Max-Height-Fly-Elytra-Limit-Message-Limit: 10
+    Max-Height-Fly-Elytra-Limit-Message:
+    - '§b[sFlightLimit] §8- §cYou cannot fly higher than &6%limit% &cblocks in the world &6%world%'
+    Max-Height-Fly-Elytra-Limit-Reset-Enabled: true
+    Max-Height-Fly-Elytra-Limit-Reset-Sound-Enabled: true
+    Max-Height-Fly-Elytra-Limit-Reset-Sound: BLOCK_ANVIL_DESTROY
+    Max-Height-Fly-Elytra-Limit-Reset-Sound-Volume: 1.0
+    Max-Height-Fly-Elytra-Limit-Reset-Sound-Pitch: 2.0
+    #
+    #
+    # Setting the minimum height. for fly | Настройка минимальной высоты. для флая
+    Min-Height-Fly-Limit-Enabled: true
+    Min-Height-Fly-Limit: 0
+    Min-Height-Fly-Limit-Permission-Enabled: false
+    Min-Height-Fly-Limit-Permission: sflightlimit.bypass.fly
+    Min-Height-Fly-Limit-Message-Admin-Enabled: true
+    Min-Height-Fly-Limit-Message-Admin-Permission: sflightlimit.admin-message-fly-min
+    Min-Height-Fly-Limit-Message-Admin-Limit: 10
+    Min-Height-Fly-Limit-Message-Admin:
+    - '§b[sFlightLimit] §8- §ePlayer &6%player% &ewanted to fly lower than &6%limit% &eblocks in the world &6%world% &ebut couldn''t.'
+    Min-Height-Fly-Limit-Message-Enabled: true
+    Min-Height-Fly-Limit-Message-Limit: 10
+    Min-Height-Fly-Limit-Message:
+    - '§b[sFlightLimit] §8- §cYou cannot fly lower than &6%limit% &cblocks in the world &6%world%'
+    Min-Height-Fly-Limit-Reset-Enabled: true
+    Min-Height-Fly-Limit-Reset-Sound-Enabled: true
+    Min-Height-Fly-Limit-Reset-Sound: BLOCK_ANVIL_DESTROY
+    Min-Height-Fly-Limit-Reset-Sound-Volume: 1.0
+    Min-Height-Fly-Limit-Reset-Sound-Pitch: 2.0
+    # Setting the minimum height. for elytra | Настройка минимальной высоты. для элитр
+    Min-Height-Fly-Elytra-Limit-Enabled: true
+    Min-Height-Fly-Elytra-Limit: 0
+    Min-Height-Fly-Elytra-Limit-Permission-Enabled: false
+    Min-Height-Fly-Elytra-Limit-Permission: sflightlimit.bypass.fly-elytra
+    Min-Height-Fly-Elytra-Limit-Message-Admin-Enabled: true
+    Min-Height-Fly-Elytra-Limit-Message-Admin-Permission: sflightlimit.admin-message-fly-elytra-min
+    Min-Height-Fly-Elytra-Limit-Message-Admin-Limit: 10
+    Min-Height-Fly-Elytra-Limit-Message-Admin:
+    - '§b[sFlightLimit] §8- §ePlayer &6%player% &ewanted to fly lower than &6%limit% &eblocks in the world &6%world% &ebut couldn''t.'
+    Min-Height-Fly-Elytra-Limit-Message-Enabled: true
+    Min-Height-Fly-Elytra-Limit-Message-Limit: 10
+    Min-Height-Fly-Elytra-Limit-Message:
+    - '§b[sFlightLimit] §8- §cYou cannot fly lower than &6%limit% &cblocks in the world &6%world%'
+    Min-Height-Fly-Elytra-Limit-Reset-Enabled: true
+    Min-Height-Fly-Elytra-Limit-Reset-Sound-Enabled: true
+    Min-Height-Fly-Elytra-Limit-Reset-Sound: BLOCK_ANVIL_DESTROY
+    Min-Height-Fly-Elytra-Limit-Reset-Sound-Volume: 1.0
+    Min-Height-Fly-Elytra-Limit-Reset-Sound-Pitch: 2.0

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="sFlightLimit:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="sFlightLimit.jar">
+      <element id="module-output" name="sFlightLimit" />
+    </root>
+  </artifact>
+</component>
